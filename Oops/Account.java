@@ -29,7 +29,7 @@ public class Account {
             balance -= amount;
             System.out.println("Withdrawn: " + amount);
         } else {
-            System.out.println("Invalid withdrawal amount or insufficient funds.");
+            System.out.println("Invalid withdrawal amount");
         }
     }
 

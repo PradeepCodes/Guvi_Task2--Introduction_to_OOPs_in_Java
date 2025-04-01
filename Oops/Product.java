@@ -1,18 +1,18 @@
 package Oops;
 import java.util.Scanner;
 public class Product {
-    private int productId;
+    private int pid;
     private double price;
     private int quantity;
 
-    public Product(int productId, double price, int quantity) {
-        this.productId = productId;
+    public Product(int pid, double price, int quantity) {
+        this.pid = pid;
         this.price = price;
         this.quantity = quantity;
     }
 
     public int getProductId() {
-        return productId;
+        return pid;
     }
 
     public double getPrice() {
@@ -20,6 +20,6 @@ public class Product {
     }
 
     public int getQuantity() {
-return quantity;
+       return quantity;
     }
 }

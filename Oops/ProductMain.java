@@ -5,7 +5,6 @@ public class ProductMain {
         Scanner scanner = new Scanner(System.in);
         Product[] products = new Product[5];
 
-        // Accept product information
         for (int i = 0; i < 5; i++) {
             System.out.println("Enter Product ID, Price, and Quantity for Product " + (i + 1) + ":");
             int pid = scanner.nextInt();

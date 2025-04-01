@@ -16,11 +16,10 @@ public class Person {
     }
     public void display()
     {
-        System.out.println("Name: "+ name +", age: "+age);
+        System.out.println("Name: "+ name);
+        System.out.println("Age: "+age);
     }
-    public void displayPerson() {
-        System.out.println("Name: " + name + ", Age: " + age);
-    }
+
     public static void main(String[] args) {
         Person person1 = new Person("vimal");
         Person person2 = new Person("Pradeep",25);
